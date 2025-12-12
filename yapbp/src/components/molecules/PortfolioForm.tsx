@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 interface PortfolioFormProps {
-  // We'll add form fields later
+  // We'll add form fields later if required
 }
 
 // Left side form for portfolio settings and configuration
@@ -132,8 +132,8 @@ export const PortfolioForm: React.FC<PortfolioFormProps> = () => {
         {/* Helper Text */}
         <div className="mt-8 p-4 bg-blue-50 rounded-lg">
           <p className="text-sm text-blue-800">
-            <strong>Tip:</strong> Click on a section on the right to add shapes to it.
-            Use the drag handle to reorder sections.
+            <strong>Tip:</strong> Click on a section on the right to add shapes
+            to it. Use the drag handle to reorder sections.
           </p>
         </div>
       </div>
